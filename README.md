@@ -1,4 +1,4 @@
-# Bengali NLP: Context-Aware Stopword Detection
+# Bengali NLP: Stopword Detection
 
 A robust NLP pipeline built to identify and filter Bengali stopwords using contextual features. Designed with flexibility to integrate into broader tasks like sentiment analysis and cyberbullying detection.
 
@@ -19,3 +19,8 @@ The motivation stems from the challenges unique to Bengali: rich morphology, syn
 - Bengali corpus preprocessing: tokenization, POS tagging
 - Modular design for text classification and model evaluation
 
+### Current Limitations
+
+- Dataset size is modest and curated for initial testing
+- Annotation strategies are rule-based and require human review for refinement
+- Contextual ambiguity in Bengali makes automatic labeling particularly challenging
